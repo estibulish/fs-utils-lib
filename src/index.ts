@@ -13,5 +13,3 @@ export * from './utils/browser';
 export * from './utils/math';
 
 export * from './utils/encoding';
-
-console.log('fs-tools');
