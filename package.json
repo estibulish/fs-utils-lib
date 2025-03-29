@@ -1,0 +1,33 @@
+{
+  "name": "fs-utils-lib",
+  "version": "1.0.0",
+  "description": "fs-utils-lib工具库",
+  "private": false,
+  "type": "module",
+  "files": [
+    "dist/*"
+  ],
+  "main": "dist/fs-utils-lib.umd.js",
+  "module": "dist/fs-utils-lib.es.js",
+  "types": "dist/types/fs-utils-lib.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/fs-utils-lib.es.js",
+      "require": "./dist/fs-utils-lib.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.3",
+    "vite-plugin-dts": "^4.5.3"
+  }
+}
